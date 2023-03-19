@@ -1,0 +1,58 @@
+img {
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+.block {
+    width: 800px;
+    margin: auto ;
+    background-color: aqua;
+    padding: 20px;
+}
+body {
+   background-image: url("priroda.jpg"); 
+   background-size: cover;
+   background-attachment: fixed;
+}
+.box {
+    border: 3px dotted brown;
+    padding: 20px;
+    margin: 25px 0;
+    
+}
+.text {
+    text-align: justify;
+}
+.link {
+    text-align: right;
+    
+    
+}
+h2 {
+    text-decoration: underline;
+    color: yellow;
+    text-align: center;
+}
+.link a {
+    text-decoration: none ;
+    color: black;
+    text-transform: uppercase;
+}
+.link a:hover {
+    text-decoration: underline ;
+    color: white;
+}
+.menu {
+    background: green;
+    text-align: right;
+    line-height: 30px;
+}
+.menu a {
+    color: chocolate;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 20px;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
